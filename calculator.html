@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id='mycalculator' class="col-centered">
+            <div id="casio" class="text-center">CASIO</div>
+            <div id="screen" class="col-centered">
+                <div id="display" class="text-right">
+                </div>
+            </div><!-- /screen -->
+
+            <div id="buttons" class="text-center">
+                <div id="clear" class="text-right">
+                    <button type="button" class="btn btn-danger allClear" data-toggle="button">AC</button><button
+                        type="button" class="btn btn-danger clearEntry" data-toggle="button">CE</button>
+                </div><!-- /clear -->
+                <button type="button" class="btn btn-primary digit" data-toggle="button">7</button>
+                <button type="button" class="btn btn-primary digit" data-toggle="button">8</button>
+                <button type="button" class="btn btn-primary digit" data-toggle="button">9</button>
+                <button type="button" class="btn btn-success operatorBtn" data-toggle="button">÷</button>
+                <button type="button" class="btn btn-primary digit" data-toggle="button">4</button>
+                <button type="button" class="btn btn-primary digit" data-toggle="button">5</button>
+                <button type="button" class="btn btn-primary digit" data-toggle="button">6</button>
+                <button type="button" class="btn btn-success operatorBtn" data-toggle="button">x</button>
+                <button type="button" class="btn btn-primary digit" data-toggle="button">1</button>
+                <button type="button" class="btn btn-primary digit" data-toggle="button">2</button>
+                <button type="button" class="btn btn-primary digit" data-toggle="button">3</button>
+                <button type="button" class="btn btn-success operatorBtn" data-toggle="button">-</button>
+                <button type="button" class="btn btn-primary digit" data-toggle="button">0</button>
+                <button type="button" class="btn btn-primary point" data-toggle="button">.</button>
+                <button type="button" class="btn btn-primary equals" data-toggle="button">=</button>
+                <button type="button" class="btn btn-success operatorBtn" data-toggle="button">+</button>
+            </div>
+
+
+        </div><!-- /mycalculator -->
+    </div><!-- /container -->
+</body>
+
+</html>
