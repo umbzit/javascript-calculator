@@ -1,5 +1,5 @@
 # javascript-calculator
- A javascript calculator, developed for a Free Code Camp certification
+ A javascript calculator
 
 
 ## Credits
